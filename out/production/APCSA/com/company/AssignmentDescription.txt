@@ -1,0 +1,45 @@
+AP CS A:
+Q3 Assignment 1
+28 March 2022
+
+Topics:
+    Introductory Java Language Features
+    Objects and Classes
+    Inheritance and Polymorphism
+
+
+Complete the tasks below.
+
+        ******************************************************************************************
+            You must choose the appropriate names, access modifiers, data types, return
+                        values, and/or parameters for each data field and method below.
+        ******************************************************************************************
+
+TASK 1:
+
+    Create an Employee class
+
+        Include data fields for: name, title/position, branch location,
+        annual salary, id number, number of employees, and an employee list
+
+        Create a constructor that instantiates or modifies these values appropriately
+
+        Create accessor (getter) and mutator (setter) methods for the appropriate data fields
+
+        Override the toString() and equals() methods from the Object superclass
+
+        Create a method for removing an Employee from the employee list
+
+
+
+
+
+TASK 2:
+
+    Create a HumanResources class that inherits from the Employee class
+
+        Inherit the constructor from the Employee class and add a new data field and initialization for 'department'
+
+        Create accessor (getter) and mutator (setter) methods for department
+
+

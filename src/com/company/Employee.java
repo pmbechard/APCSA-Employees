@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class Employee {
+abstract class Employee {
     private String name;
     private String title;
     private String branch;
@@ -10,7 +10,8 @@ public class Employee {
     private final int id;
     public static int numEmployees = 0;
     public static ArrayList<Employee> employeeList = new ArrayList<>();
-
+    public static ArrayList<Project> projectsList = new ArrayList<>();
+    // ^^
 
     public Employee(String name, String title, String branch, double salary) {
         this.name = name;
@@ -60,11 +61,20 @@ public class Employee {
 
     public static void removeEmployee(Employee e) {
         employeeList.remove(e);
+        numEmployees--;
     }
 
     @Override
     public String toString() {
         return name + " (id: " + id + ") works as a " + title + " at " + branch + " for $" + salary + " annually.";
+    }
+
+    public boolean equals(Employee e) {
+        if (id == e.id && name == e.name) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
