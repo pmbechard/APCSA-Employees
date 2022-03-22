@@ -11,6 +11,9 @@ Topics:
 Complete the tasks below. Please read through ALL tasks and make a plan before you begin.
 
 
+
+
+
 TASK 1:
 
     Create an Employee class
@@ -53,9 +56,9 @@ TASK 3:
 
         Create accessor (getter) and mutator (setter) methods for the appropriate data fields
 
-        Override the toString() from the Object superclass
+        Override the toString() and equals() methods from the Object superclass
 
-        Create a method to return all employees assigned to that project (see below)
+        Create a method to return all Software Engineers assigned to that project (see below)
 
 
 
@@ -69,14 +72,17 @@ TASK 4:
 
         Create a method for getting a list of all SoftwareEngineer staff members
 
-        Create methods for adding and removing projects from the projects list
+        Create methods for adding and removing projects from the Software Engineers' projects list
 
 
 
 
-
+HINTS:
         ******************************************************************************************
-            You must choose the appropriate names, access modifiers, data types, return
-                        values, and/or parameters for each data field and method below.
+                You must choose the appropriate names, access modifiers, data types, return
+                values, and/or parameters for each data field and method below.
+
+                Use the Main class or a Tester class to ensure that your code functions as
+                expected. Test your code extensively at each step!
         ******************************************************************************************
 

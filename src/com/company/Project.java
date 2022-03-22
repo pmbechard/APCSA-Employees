@@ -35,10 +35,10 @@ public class Project {
         this.description = description;
     }
 
-    public static ArrayList<Employee> getAllEmployeesOnProject(Project project) {
+    public ArrayList<Employee> getAllEmployeesOnProject() {
         ArrayList<Employee> employees = new ArrayList<>();
         for (Employee e : Employee.employeeList) {
-            if (e instanceof SoftwareEngineer && ((SoftwareEngineer) e).projects.contains(project)) {
+            if (e instanceof SoftwareEngineer && ((SoftwareEngineer) e).projects.contains(this)) {
                 employees.add(e);
             }
         }

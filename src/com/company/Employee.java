@@ -61,7 +61,6 @@ abstract class Employee {
 
     public static void removeEmployee(Employee e) {
         employeeList.remove(e);
-        numEmployees--;
     }
 
     @Override
