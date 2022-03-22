@@ -22,7 +22,5 @@ public class Main {
         se2.addProject(p1);
         System.out.println(p1.getAllEmployeesOnProject());
 
-        
-
     }
 }

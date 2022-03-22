@@ -77,9 +77,12 @@ TASK 4:
 
 
 
-
+HINTS:
         ******************************************************************************************
-            You must choose the appropriate names, access modifiers, data types, return
-                        values, and/or parameters for each data field and method below.
+                You must choose the appropriate names, access modifiers, data types, return
+                values, and/or parameters for each data field and method below.
+
+                Use the Main class or a Tester class to ensure that your code functions as
+                expected. Test your code extensively at each step!
         ******************************************************************************************
 
