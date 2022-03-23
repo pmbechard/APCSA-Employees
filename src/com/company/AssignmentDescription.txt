@@ -21,7 +21,7 @@ TASK 1:
         Include data fields for: name, title/position, branch location,
         annual salary, id number, number of employees, an employee list, and a project list
 
-        Create a constructor that instantiates or modifies these values appropriately
+        Create a constructor that initializes or modifies these values appropriately
 
         Create accessor (getter) and mutator (setter) methods for the appropriate data fields
 
@@ -52,7 +52,7 @@ TASK 3:
 
         Include data fields for project name, deadline, and description
 
-        Create a constructor that instantiates or modifies these values appropriately
+        Create a constructor that initializes or modifies these values appropriately
 
         Create accessor (getter) and mutator (setter) methods for the appropriate data fields
 
